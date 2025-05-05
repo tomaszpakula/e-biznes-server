@@ -4,4 +4,4 @@ COPY . .
 COPY . .
 RUN rm -rf target/ 
 EXPOSE 9000
-CMD sbt run
+CMD ["sbt", "run"]
